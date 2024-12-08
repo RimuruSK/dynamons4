@@ -1,5 +1,5 @@
 (function () {
-    let isMenuOpen = true;
+    let isMenuOpen = false;
     if (isMenuOpen) {
         const shadowHost = document.createElement('div');
         shadowHost.style.position = 'fixed';
@@ -1506,9 +1506,9 @@
         });
     }
     document.addEventListener("keydown", function(event) {
-        if (event.key === "H" || event.key === "h" && isMenuOpen) {
-            isMenuOpen = false;
-        } else if (!isMenuOpen) {
+        if (event.key === "H" || event.key === "h" && !isMenuOpen) {
+            isMenuOpen = true;
+        } else if (isMenuOpen) {
             isMenuOpen = false;
         }
     });
