@@ -52,7 +52,7 @@
             "type": 1,
             "amount": 5,
             "what": "player",
-            "reward": 100000000,
+            "reward": 10000000,
             "progress": 5
         },
         "2": {
@@ -63,7 +63,7 @@
             "type": 4,
             "amount": 1,
             "what": "ghost",
-            "reward": 100000000,
+            "reward": 10000000,
             "progress": 5
         }
     },
