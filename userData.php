@@ -52,18 +52,18 @@
             "type": 1,
             "amount": 5,
             "what": "player",
-            "reward": 10000000,
+            "reward": 1000000,
             "progress": 5
         },
         "2": {
-            "startTime": 9
+            "startTime": 0
         },
         "3": {
             "id": 328731134,
             "type": 4,
             "amount": 1,
             "what": "ghost",
-            "reward": 10000000,
+            "reward": 1000000,
             "progress": 5
         }
     },
