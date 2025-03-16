@@ -8,13 +8,13 @@
         "loginDisplay": "LazyNeko",
         "name": "LazyNeko",
         "accountType": 0,
-        "level": 50,
-        "premiumPoints": 1000000,
+        "level": 1,
+        "premiumPoints": 10,
         "experience": 2877,
         "experienceNextLevel": 33100,
         "experiencePercents": 8.6918,
-        "bonusExp": 800,
-        "premium": 1,
+        "bonusExp": 808000,
+        "premium": 0,
         "startPoints": 3,
         "spawnTimer": 0,
         "discordLogged": false,
@@ -25,26 +25,26 @@
         "specialCodeValid": "2030-12-31 23:59:59",
         "showPremiumOffer": true,
         "skins": "pets,1,2,3",
-        "profileKey": "62110498ce01e54e3697709bf38ad8cf",
+        "profileKey": "e8bc678c10f724fa598d5c971d624b8e",
         "authData": {
             "id": "101547836",
             "guest": false,
             "registerDate": "14.03.2025",
             "login": "LazyNeko",
-            "level": "50",
+            "level": "1",
             "premium": 0,
             "spawnTimer": 0,
-            "time": 1742011821,
-            "bonusExp": 800,
+            "time": 1742088741,
+            "bonusExp": 8000,
             "access": 0,
-            "dailyQuests": "328731132,1,player,328731134,4,ghost",
+            "dailyQuests": "328731132,1,player,328859403,5,strawberry,328731134,4,ghost",
             "skins": "pets,1,2,3",
             "countryCode": "VN",
             "experience": "2877",
             "experienceNextLevel": "33100",
             "experiencePercents": "8.6918"
         },
-        "authToken": "f6ecde9664941499426dedd56e8b3f3e"
+        "authToken": "3eff0daf7c9de8dfc81588d0c8e14eea"
     },
     "dailyQuests": {
         "1": {
@@ -52,19 +52,24 @@
             "type": 1,
             "amount": 5,
             "what": "player",
-            "reward": 1000000,
-            "progress": 5
+            "reward": 2500,
+            "progress": 0
         },
         "2": {
-            "startTime": 0
+            "id": 328859403,
+            "type": 5,
+            "amount": 5,
+            "what": "strawberry",
+            "reward": 7000,
+            "progress": 0
         },
         "3": {
             "id": 328731134,
             "type": 4,
             "amount": 1,
             "what": "ghost",
-            "reward": 1000000,
-            "progress": 5
+            "reward": 302500,
+            "progress": 0
         }
     },
     "popups": [],
@@ -74,7 +79,7 @@
             "ip": "wss:\/\/46-183-219-238.evoworld.io",
             "port": "1600",
             "location": "EUNE",
-            "players": 195,
+            "players": 179,
             "maxPlayers": 300
         },
         {
@@ -82,7 +87,7 @@
             "ip": "wss:\/\/162-19-84-53.evoworld.io",
             "port": "1600",
             "location": "EUW",
-            "players": 121,
+            "players": 86,
             "maxPlayers": 300
         },
         {
@@ -90,7 +95,7 @@
             "ip": "wss:\/\/144-48-104-66.evoworld.io",
             "port": "1600",
             "location": "NA",
-            "players": 211,
+            "players": 297,
             "maxPlayers": 300
         },
         {
@@ -98,7 +103,15 @@
             "ip": "wss:\/\/144-48-104-66.evoworld.io",
             "port": "2600",
             "location": "NA",
-            "players": 96,
+            "players": 213,
+            "maxPlayers": 300
+        },
+        {
+            "name": "North America 3",
+            "ip": "wss:\/\/144-48-104-66.evoworld.io",
+            "port": "3600",
+            "location": "NA",
+            "players": 9,
             "maxPlayers": 300
         },
         {
@@ -106,7 +119,15 @@
             "ip": "wss:\/\/108-181-68-193.evoworld.io",
             "port": "1600",
             "location": "SA",
-            "players": 96,
+            "players": 228,
+            "maxPlayers": 300
+        },
+        {
+            "name": "South America 2",
+            "ip": "wss:\/\/108-181-68-193.evoworld.io",
+            "port": "2600",
+            "location": "SA",
+            "players": 3,
             "maxPlayers": 300
         },
         {
@@ -114,7 +135,7 @@
             "ip": "wss:\/\/15-235-180-40.evoworld.io",
             "port": "1601",
             "location": "ASSE",
-            "players": 300,
+            "players": 292,
             "maxPlayers": 300
         },
         {
@@ -122,7 +143,7 @@
             "ip": "wss:\/\/15-235-180-40.evoworld.io",
             "port": "2601",
             "location": "ASSE",
-            "players": 97,
+            "players": 71,
             "maxPlayers": 300
         },
         {
@@ -130,7 +151,7 @@
             "ip": "wss:\/\/148-113-47-32.evoworld.io",
             "port": "1600",
             "location": "ASS",
-            "players": 115,
+            "players": 78,
             "maxPlayers": 300
         },
         {
@@ -138,7 +159,7 @@
             "ip": "wss:\/\/181-215-205-204.evoworld.io",
             "port": "1600",
             "location": "ASW",
-            "players": 107,
+            "players": 85,
             "maxPlayers": 300
         },
         {
@@ -146,7 +167,7 @@
             "ip": "wss:\/\/139-99-197-162.evoworld.io",
             "port": "1601",
             "location": "AUS",
-            "players": 98,
+            "players": 94,
             "maxPlayers": 250
         }
     ]
